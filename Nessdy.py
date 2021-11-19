@@ -25,7 +25,7 @@ def enviar_email():
     msg = email.message.Message()
     msg['Subject'] = "Ajuda"
     msg['From'] = user
-    msg['To'] = 'Support@whatsapp.com'
+    msg['To'] = 'support@whatsapp.com'
     password = senha
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
